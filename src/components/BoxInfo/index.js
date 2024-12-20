@@ -12,15 +12,19 @@ export default function BoxInfo() {
       </label>
 
       <form>
-        <label htmlFor="altura">
-          Altura
-          <input type="number" className="altura" id="altura" />
-        </label>
+        <div>
+          <p>Parte 01</p>
 
-        <label htmlFor="largura">
-          Largura
-          <input type="number" className="largura" id="largura" />
-        </label>
+          <label htmlFor="altura-01">
+            Altura
+            <input type="number" className="altura" id="altura-01" />
+          </label>
+
+          <label htmlFor="largura-01">
+            Largura
+            <input type="number" className="largura" id="largura=01" />
+          </label>
+        </div>
 
         <label htmlFor="altura">
           Altura
