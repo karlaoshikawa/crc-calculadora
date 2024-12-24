@@ -1,13 +1,15 @@
-// import Image from "next/image";
-// import styles from "./page.module.css";
 import BoxInfo from "../components/BoxInfo/index.js";
-import CustosFixos from "../components/CustosFixos/index.js";
+import FixedCosts from "../components/FixedCosts/index.js";
+import Packaging from "../components/Packaging/index.js";
+import Remuneration from "../components/Remuneration/index.js";
 
 export default function Home() {
   return (
     <div>
       <BoxInfo />
-      <CustosFixos />
+      <FixedCosts />
+      <Packaging />
+      <Remuneration />
     </div>
   );
 }

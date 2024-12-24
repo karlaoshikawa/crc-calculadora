@@ -10,7 +10,6 @@ export default function Login() {
           required
         />
       </label>
-
       <label htmlFor="password">
         Senha
         <input
@@ -20,6 +19,7 @@ export default function Login() {
           required
         />
       </label>
+      <p>Login</p>
     </div>
   );
 }

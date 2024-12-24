@@ -18,7 +18,7 @@ export default function Register() {
         placeholder="Digite sua senha aqui"
         required
       />
-      <a>Finalizar cadastro</a>
+      <p>Finalizar cadastro</p>
     </div>
   );
 }
