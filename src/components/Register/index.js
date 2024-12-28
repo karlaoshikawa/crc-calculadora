@@ -5,6 +5,7 @@ export default function Register() {
 
       <label htmlFor="email">E-mail</label>
       <input
+        value="gustavo.lucoli.koepsel@gmail.com"
         type="email"
         className="email"
         placeholder="exemplo.email@email.com"
@@ -18,7 +19,7 @@ export default function Register() {
         placeholder="Digite sua senha aqui"
         required
       />
-      <p>Finalizar cadastro</p>
+      <p>Finalizar Cadastro</p>
     </div>
   );
 }
