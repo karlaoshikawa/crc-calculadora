@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import "./material.scss";
 
 export default function Material() {
   const [materialList, setMaterialList] = useState({
@@ -148,7 +149,7 @@ export default function Material() {
   return (
     <div className="material-container">
       <table>
-        <tr>
+        <tr className="name-itens-box">
           <th>Material</th>
           <th>Unidade de Medida</th>
           <th>Quantidade comprada</th>
@@ -158,9 +159,13 @@ export default function Material() {
 
         {materialList &&
           Object.values(materialList).map((item, index) => (
-            <tr key={index}>
+            <tr key={index} className="itens-value-box">
               <td>
-                <input type="text" value={item.material} />
+                <input
+                  type="text"
+                  className="material-input-item"
+                  value={item.material}
+                />
               </td>
               <td>
                 <select>
@@ -172,10 +177,18 @@ export default function Material() {
                 </select>
               </td>
               <td>
-                <input type="text" value={item.qntBuy} />
+                <input
+                  type="text"
+                  className="qntBuy-input-item"
+                  value={item.qntBuy}
+                />
               </td>
               <td>
-                <input type="text" value={item.expendValue} />
+                <input
+                  type="text"
+                  className="expendValue-input-item"
+                  value={item.expendValue}
+                />
               </td>
 
               <td>

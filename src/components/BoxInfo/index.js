@@ -1,3 +1,5 @@
+import "./boxinfo.scss";
+
 export default function BoxInfo() {
   return (
     <div className="boxinfo-container">
