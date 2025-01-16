@@ -2,5 +2,28 @@
 
 .boxinfo-container {
   width: 1440px;
-  margin: 40px auto 0 auto;
+  margin: 100px auto 0 auto;
+  .boxinfo-box-name {
+    input {
+      margin-left: 20px;
+      padding-left: 7px;
+    }
+  }
+  .boxinfo-itens {
+    display: grid;
+    p {
+      margin: 20 0 10 0;
+    }
+    label {
+      margin-right: 20px;
+      input {
+        margin-left: 20px;
+        padding-left: 7px;
+      }
+    }
+
+    a {
+      margin: 20 0 0 0;
+    }
+  }
 }

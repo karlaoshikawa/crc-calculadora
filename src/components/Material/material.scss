@@ -11,6 +11,13 @@
       }
     }
     .itens-value-box {
+      input {
+        padding-left: 7px;
+        margin-top: 10px;
+      }
+      select {
+        padding-left: 7px;
+      }
       .material-input-item {
         width: 470px;
         height: 30px;

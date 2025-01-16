@@ -1,0 +1,29 @@
+.fixed-costs-container {
+  width: 1440px;
+  margin: 40 auto 0 auto;
+  .title {
+    font-weight: bold;
+  }
+
+  .fixed-costs-box {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    label {
+      width: 100%;
+      display: flex;
+      margin-top: 10px;
+      .item-name {
+        width: 200px;
+      }
+      input {
+        padding-left: 7px;
+        height: 19px;
+      }
+    }
+  }
+  .total {
+    margin-top: 20px;
+  }
+}
