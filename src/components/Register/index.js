@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./register.scss";
 
 export default function Register() {
   const [email, setEmail] = useState("");

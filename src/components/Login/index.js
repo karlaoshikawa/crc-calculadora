@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./login.scss";
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -40,7 +41,7 @@ export default function Login() {
   };
 
   return (
-    <div>
+    <div className="login-container">
       <form onSubmit={handleSubmit}>
         <div className="email-box">
           <label htmlFor="email">
