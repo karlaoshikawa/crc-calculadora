@@ -1,6 +1,6 @@
-export default function CustosFixos() {
+export default function FixedCosts() {
   return (
-    <div>
+    <div className="fixed-costs-container">
       <p> custos fixos</p>
       <label htmlFor="aluguel">
         Aluguel
