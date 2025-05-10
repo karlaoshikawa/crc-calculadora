@@ -1,0 +1,53 @@
+@import "../../style/variables.scss";
+
+.material-container {
+  width: 1440px;
+  margin: 40px auto 0 auto;
+
+  table {
+    .name-itens-box {
+      th {
+        padding-left: 10px;
+      }
+    }
+    .itens-value-box {
+      input {
+        padding-left: 7px;
+        margin-top: 10px;
+      }
+      select {
+        padding-left: 7px;
+      }
+      .material-input-item {
+        width: 470px;
+        height: 30px;
+        border: 0.5px solid;
+        border-radius: 5px;
+      }
+
+      select {
+        width: 111px;
+        height: 30px;
+        border: 0.5px solid;
+        border-radius: 5px;
+      }
+
+      .qntBuy-input-item {
+        width: 111px;
+        height: 30px;
+        border: 0.5px solid;
+        border-radius: 5px;
+      }
+
+      .expendValue-input-item {
+        width: 111px;
+        height: 30px;
+        border: 0.5px solid;
+        border-radius: 5px;
+      }
+      width: 100%;
+    }
+
+    width: 100%;
+  }
+}

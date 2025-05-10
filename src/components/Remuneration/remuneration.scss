@@ -1,0 +1,28 @@
+.remuneration-container {
+  width: 1440px;
+  margin: 40 auto 0 auto;
+  .title {
+    font-weight: bold;
+  }
+  .hour-value-name {
+    margin-top: 10px;
+  }
+
+  .remuneration-box {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    label {
+      width: 100%;
+      margin-top: 10px;
+      display: flex;
+      .item-name {
+        width: 200px;
+      }
+
+      input {
+        padding-left: 7px;
+      }
+    }
+  }
+}

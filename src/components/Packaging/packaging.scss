@@ -1,0 +1,31 @@
+.packaging-contaner {
+  width: 1440px;
+  margin: 40 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-weight: bold;
+  }
+  .packaging-box {
+    width: 405px;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        .item-name {
+          width: 200px;
+        }
+
+        input {
+          padding-left: 7px;
+        }
+      }
+    }
+  }
+}
